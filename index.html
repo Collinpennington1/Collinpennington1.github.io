@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Collin's Amazing Website</title>
+    </head>
+        <style>
+             body {
+                background: rgb(0, 130, 200);
+                color: rgb(75, 50, 50);
+                padding: 30px;
+                font-family: comic;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 850px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(70, 8, 91);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(75, 255, 5);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 15px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(0, 130, 150);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+        </style>
+    <body>
+        <div id="all-contents">
+            <nav>
+                <header>Collin's Glorious Website</header>
+                
+                <li><a href="index.html">Home</a></li>
+                
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </nav>
+            
+            <main>
+                <div class="sidebar">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT82elKAPsVPVrZmNQ5bXA6_773v3ZIBbE7F_M4UdPUZkJU96-7">
+                
+                <div class="content">
+                    <header>Collin Pennington</header>
+                    
+                    <p>Student at Walker Highschool</p>
+                    
+                    <section class="intrest">
+                        
+                        <header>Intrests</header>
+                        <ul>
+                            <li>Anime</li>
+                            
+                            <li>Books</li>
+                            
+                            <li>VideoGames</li>
+                            
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
